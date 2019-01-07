@@ -24,10 +24,10 @@ self.addEventListener('install', (event) => {
                     "/",
                     "/index.html",
                     "/restaurant.html",
-                    "http://127.0.0.1:5500/img/icons-144.png",
+                    "./img/icons-144.png",
                     "https://unpkg.com/leaflet@1.3.1/dist/leaflet.css",
                     "https://unpkg.com/leaflet@1.3.1/dist/leaflet.js",
-                    "http://127.0.0.1:5500/manifest.json",
+                    "/manifest.json",
                     "https://api.tiles.mapbox.com/v4/mapbox.streets/12/1206/1539.jpg70?access_token=pk.eyJ1IjoicGFsd2luZGVyIiwiYSI6ImNqcHk2cXd6eTFsMmg0Mm50Z3Vic2pxankifQ.q-VdQWBs89UmDI9xrFlQBg",
                     "https://api.tiles.mapbox.com/v4/mapbox.streets/12/1206/1540.jpg70?access_token=pk.eyJ1IjoicGFsd2luZGVyIiwiYSI6ImNqcHk2cXd6eTFsMmg0Mm50Z3Vic2pxankifQ.q-VdQWBs89UmDI9xrFlQBg",
                     "https://api.tiles.mapbox.com/v4/mapbox.streets/12/1205/1539.jpg70?access_token=pk.eyJ1IjoicGFsd2luZGVyIiwiYSI6ImNqcHk2cXd6eTFsMmg0Mm50Z3Vic2pxankifQ.q-VdQWBs89UmDI9xrFlQBg",
@@ -53,7 +53,7 @@ self.addEventListener('install', (event) => {
                     "./restaurant.html?id=8",
                     "./restaurant.html?id=9",
                     "./restaurant.html?id=10"
-                    
+
                 ]
             )
         })
@@ -75,8 +75,8 @@ self.addEventListener('activate', event => {
 })
 self.addEventListener('fetch', (event) => {
     event.respondWith(
-caches.match(event.request).then(function (response) {
+        caches.match(event.request).then(function (response) {
             return response || fetch(event.request)
         })
     )
-    })
+})

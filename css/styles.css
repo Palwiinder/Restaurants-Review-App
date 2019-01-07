@@ -101,12 +101,11 @@ nav h1 a {
 
 #breadcrumb {
   padding: 0px 0px 0px;
-    list-style: none;
-    background-color: #eee;
-    font-size: 17px;
-    width: calc(50px - 8px);
-    margin-left: 50px;
-    margin-top: 40px;
+  list-style: none;
+  background-color: #eee;
+  font-size: 17px;
+  width: 190px;
+  margin-top: 10px;
 }
 
 /* Display list items side by side */

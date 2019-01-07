@@ -298,12 +298,11 @@ nav h1 a {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
   padding: 140px 40px 30px;
+  padding-left: 1.5px;
   width: 50%;
 }
 
-#reviews-container {
-  padding: 30px 40px 80px;
-}
+
 
 #reviews-container h2 {
   color: #f58500;
@@ -352,7 +351,7 @@ nav h1 a {
   }
 }
 
-@media screen and (max-width:722px) {
+@media screen and (max-width:500px) {
   #reviews-list li {
     text-align: center;
     width: 100%;

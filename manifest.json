@@ -2,7 +2,7 @@
   "short_name": "Maps",
   "name": "Maps",
   "icons": [{
-      "src": "/img/icons-144.png",
+      "src": "./img/icons-144.png",
       "type": "image\/png",
       "sizes": "144x144"
     }

@@ -27,7 +27,7 @@ self.addEventListener('install', (event) => {
                     "./img/icons-144.png",
                     "https://unpkg.com/leaflet@1.3.1/dist/leaflet.css",
                     "https://unpkg.com/leaflet@1.3.1/dist/leaflet.js",
-                    "/manifest.json",
+                    "./manifest.json",
                     "https://api.tiles.mapbox.com/v4/mapbox.streets/12/1206/1539.jpg70?access_token=pk.eyJ1IjoicGFsd2luZGVyIiwiYSI6ImNqcHk2cXd6eTFsMmg0Mm50Z3Vic2pxankifQ.q-VdQWBs89UmDI9xrFlQBg",
                     "https://api.tiles.mapbox.com/v4/mapbox.streets/12/1206/1540.jpg70?access_token=pk.eyJ1IjoicGFsd2luZGVyIiwiYSI6ImNqcHk2cXd6eTFsMmg0Mm50Z3Vic2pxankifQ.q-VdQWBs89UmDI9xrFlQBg",
                     "https://api.tiles.mapbox.com/v4/mapbox.streets/12/1205/1539.jpg70?access_token=pk.eyJ1IjoicGFsd2luZGVyIiwiYSI6ImNqcHk2cXd6eTFsMmg0Mm50Z3Vic2pxankifQ.q-VdQWBs89UmDI9xrFlQBg",

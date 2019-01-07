@@ -23,7 +23,7 @@ self.addEventListener('install', (event) => {
                     "./data/restaurants.json",
                     "./",
                     "./index.html",
-                    "./restaurant.html",
+                    "./restaurant.html", 
                     "./img/icons-144.png",
                     "https://unpkg.com/leaflet@1.3.1/dist/leaflet.css",
                     "https://unpkg.com/leaflet@1.3.1/dist/leaflet.js",

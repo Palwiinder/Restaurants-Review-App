@@ -7,7 +7,7 @@ var newMap;
 document.addEventListener('DOMContentLoaded', (event) => {
   initMap();
 });
-
+ 
 /**
  * Initialize leaflet map
  */
